@@ -1,0 +1,126 @@
+mod;name;AmmoType;module;item;Emin;Emax;Diameter;increaseHitTime;canKill
+Vanilla;.38 special;Bullet;Base;Bullets38;300;450;9.06;1;1
+Vanilla;.223;Bullet;Base;223Bullets;1670;1890;5.69;1;1
+Vanilla;.308;Bullet;Base;308Bullets;2500;3800;7.82;1;1
+Vanilla;.44;Bullet;Base;Bullets44;1000;1800;10.9;1;1
+Vanilla;.45;Bullet;Base;Bullets45;483;676;11.43;1;1
+Vanilla;5.56;Bullet;Base;556Bullets;1670;1890;5.56;1;1
+Vanilla;9mm;Bullet;Base;Bullets9mm;480;550;9.01;1;1
+Vanilla;12 gauge;Shotgun;Base;ShotgunShells;2500;3300;18.53;1;1
+VFE;7.62;Bullet;Base;762Bullets;2300;2500;7.92;1;1
+VFE;.22 LR;Bullet;Base;22Bullets;140;280;5.56;1;1
+VFE;Linked .308 Round;Bullet;Base;308BulletsLinked;2500;3800;7.82;1;1
+VFE Stalker;5.45x39mm;Bullet;Base;545Bullets;1390;1890;5.6;1;1
+Brita;.45 LONG COLT;Bullet;Base;Bullets45LC;663;844;11.43;1;1
+Brita;.357 MAGNUM;Bullet;Base;Bullets357;780;1090;9.06;1;1
+Brita;.380 ACP;Bullet;Base;Bullets380;275;360;9.01;1;1
+Brita;5.7x28mm;Bullet;Base;Bullets57;500;600;5.7;1;1
+Brita;.22 LR;Bullet;Base;Bullets22;140;280;5.56;1;1
+Brita;.45-70 GOVERNMENT;Bullet;Base;Bullets4570;2300;2500;11.63;1;1
+Brita;.50 (12.7mm) Round;Bullet;Base;Bullets50MAG;19000;19000;12.98;1;1
+Brita;5.45x39mm;Bullet;Base;545x39Bullets;1390;1890;5.6;1;1
+Brita;7.62x39mm;Bullet;Base;762x39Bullets;2300;2500;7.92;1;1
+Brita;7.62x51 NATO;Bullet;Base;762x51Bullets;2000;3850;7.84;1;1
+Brita;7.62x54 Rimmed;Bullet;Base;762x54rBullets;2600;2800;7.92;1;1
+Brita;30-06 SPRINGFIELD;Bullet;Base;3006Bullets;2500;2800;7.62;1;1
+Brita;.50 BMG;Bullet;Base;50BMGBullets;19000;19000;12.98;1;1
+Brita;40mm GRENADE;Projectile;Base;40HERound;20000;20000;40;1;1
+Brita;40mm GRENADE incendiary;Projectile;Base;40INCRound;15000;16000;40;1;1
+Brita;HERocket;Bullet;Base;HERocket;30000;30000;40;1;1
+Brita;410g SHOTGUN SHELLS;Shotgun;Base;410gShotgunShells;1000;1780;10.4;1;1
+Brita;20g SHOTGUN SHELLS;Shotgun;Base;20gShotgunShells;1700;2400;15.63;1;1
+Brita;10g SHOTGUN SHELLS;Shotgun;Base;10gShotgunShells;3000;3960;19.69;1;1
+Brita;4G SHOTGUN SHELL;Shotgun;Base;4gShotgunShells;5000;5500;26.72;1;1
+Brita;Paintball;Other;Base;PB68;0;0;0;0;0
+Brita;BB gun;Other;Base;BB177;0;0;0;0;0
+Brita;CO2_Cartridge;Other;Base;CO2_Cartridge;0;0;0;0;0
+Brita;FlameFuel;Other;Base;FlameFuel;0;0;0;0;0
+Brita;Smoke;Other;Base;Smoke;0;0;0;0;0
+Brita;WaterAmmo;Other;Base;WaterAmmo;0;0;0;0;0
+Brita;Flare;Other;Base;Flare;0;0;0;0;0
+Brita;SlingShotAmmo_Rock;Projectile;Base;SlingShotAmmo_Rock;50;250;15;0;1
+Brita;SlingShotAmmo_Marble;Projectile;Base;SlingShotAmmo_Marble;50;250;15;0;1
+Firearms B41;.44-40 WCF Round;Bullet;Base;Bullets4440;1016;1016;10.9;1;1
+Firearms B41;30.06;Bullet;Base;Bullets3006;2500;2800;7.62;1;1
+Guns93;12 Gauge slug;Shotgun;Base;Slugs;3000;4000;18.53;1;1
+Guns93;7.62x39mm;Bullet;Base;76239Bullets;2300;2500;7.92;1;1
+Guns93;7.92x57 Mauser Round;Bullet;Base;792Bullets;3800;4000;8.22;1;1
+Guns93;10mm Auto;Bullet;Base;10mmBullets;680;960;10.17;1;1
+Guns93;.40 S&W Rounds;Bullet;Base;40Bullets;600;800;10.2;1;1
+Guns93;.25 Auto Round;Bullet;Base;25Bullets;90;200;6.38;1;1
+Guns93;.380 ACP;Bullet;Base;380Bullets;275;360;9.01;1;1
+Guns93;.357 MAGNUM;Bullet;Base;357Bullets;780;1090;9.06;1;1
+Guns93;.45 LONG COLT;Bullet;Base;45LCBullets;663;844;11.43;1;1
+Guns93;.30 Carbine Round;Bullet;Base;30CarBullets;1000;1400;7.82;1;1
+Guns93;.30-30 Round;Bullet;Base;3030Bullets;2450;2800;7.62;1;1
+Guns93;5.56 Belted;Bullet;Base;556Belt;1670;1890;5.56;1;1
+Guns93;.308 Round Belted;Bullet;Base;308Belt;2500;3800;7.82;1;1
+Pallontras Weapons;Wood bolt;Projectile;PWPNXB;WoodBolt;200;350;7.62;1;1
+Pallontras Weapons;Short wood bolt;Projectile;PWPNXB;ShortWoodBolt;150;300;7.62;1;1
+Pallontras Weapons;Short iron bolt;Projectile;PWPNXB;ShortIronBolt;200;350;7.62;1;1
+Pallontras Weapons;Iron bolt;Projectile;PWPNXB;IronBolt;250;400;7.62;1;1
+Kitsune's Crossbow;Crossbow bolt;Projectile;KCMweapons;CrossbowBolt;150;350;7.62;1;1
+Kitsune's Crossbow;Crossbow bolt large;Projectile;KCMweapons;CrossbowBoltLarge;200;400;7.62;1;1
+Kitsune's Crossbow;Wooden bolt;Projectile;KCMweapons;WoodenBolt;150;350;7.62;1;1
+Scrap Guns;Metal Scraps  ;Projectile;SGuns;MetalScraps;200;350;3;1;1
+Scrap Guns;12 gauge equivalent;Shotgun;SGuns;ShrapnelShell;1200;2400;18.53;1;1
+Scrap Guns;7.62 equivalent;Bullet;SGuns;Sbullets;1670;1890;7.62;1;1
+Scrap Guns;9mm equivalent;Bullet;SGuns;ScrapBullets;140;280;9.01;1;1
+Advanced Warfare EX;7.62x51 NATO;Bullet;Base;762x51_Bullets;2000;3850;7.84;1;1
+Advanced Warfare EX;12 gauge;Shotgun;Base;shotgun12G_shells;2500;3300;18.53;1;1
+Advanced Warfare EX;9mm;Bullet;Base;9mm_Bullets;480;550;9.01;1;1
+Advanced Warfare EX;.308;Bullet;Base;308_Bullets;2500;3800;7.82;1;1
+Advanced Warfare EX;5.56;Bullet;Base;556x45_Bullets;1670;1890;5.56;1;1
+Advanced Warfare EX;.38 special;Bullet;Base;38_Bullets;300;450;9.06;1;1
+Advanced Warfare EX;.44;Bullet;Base;44_Bullets;1000;1800;10.9;1;1
+Advanced Warfare EX;.45-70 GOVERNMENT;Bullet;Base;45_70_Bullets;2300;2500;11.63;1;1
+Advanced Warfare EX;5.45x39mm;Bullet;Base;545x39_Bullets;1390;1890;5.6;1;1
+Advanced Warfare EX;.380 ACP;Bullet;Base;380_Bullets;275;360;9.01;1;1
+Advanced Warfare EX;.303 British;Bullet;Base;303B_Bullets;3000;3600;7.92;1;1
+Advanced Warfare EX;7.92x57 Mauser Round;Bullet;Base;792x57Mauser_Bullets;3800;4000;8.22;1;1
+Advanced Warfare EX;.50 (12.7mm) Round;Bullet;Base;50MAG_Bullets;19000;19000;12.98;1;1
+Advanced Warfare EX;7.62x39mm;Bullet;Base;762x39_Bullets;2300;2500;7.92;1;1
+Advanced Warfare EX;.300 AAC Blackout;Bullet;Base;300BLK_Bullets;700;1900;7.82;1;1
+Advanced Warfare EX;.277 Fury;Bullet;Base;Fury68_Bullets;3000;3700;7.06;1;1
+Advanced Warfare EX;30-06 SPRINGFIELD;Bullet;Base;30_06_Bullets;2500;2800;7.62;1;1
+Advanced Warfare EX;.357 MAGNUM;Bullet;Base;357_Bullets;780;1090;9.06;1;1
+Advanced Warfare EX;.300 Winchester Magnum;Bullet;Base;300WINMagnum_Bullets;3500;4000;7.8;1;1
+Advanced Warfare EX;.50 BMG;Bullet;Base;50BMG_Bullets;19000;19000;12.98;1;1
+Advanced Warfare EX;.45;Bullet;Base;45_Bullets;483;676;11.43;1;1
+Advanced Warfare EX;.22 LR;Bullet;Base;22_Bullets;140;280;5.56;1;1
+Advanced Warfare EX;Carbon fiber arrow;Projectile;Base;CarbonFibre_Arrow;200;350;7.62;1;1
+Advanced Warfare EX;Wood bolt;Projectile;Base;WoodenStick;200;350;7.62;1;1
+Advanced Warfare EX;9 x 18 mm Makarov;Bullet;Base;9x18mm_Bullets;300;450;9.27;1;1
+Advanced Warfare EX;.223;Bullet;Base;223_Bullets;1670;1890;5.69;1;1
+Advanced Warfare EX;.30 Carbine;Bullet;Base;7_62x33Cmm_Bullets;1200;1700;7.62;1;1
+EscapeFromKentucky2;.50 BMG;Bullet;Base;Bullets50;19000;19000;12.98;1;1
+EscapeFromKentucky2;Iron bolt;Projectile;Base;bolt;250;400;7.62;1;1
+EscapeFromKentucky2;.308;Bullet;Base;Bullets308;2500;3800;7.82;1;1
+EscapeFromKentucky2;Nails;Projectile;Base;Nails;200;300;3;1;1
+EscapeFromKentucky2;40mm GRENADE;Projectile;Base;GrenadeAmmo;20000;20000;40;1;1
+Crossbow (Lactose);Aluminium bolt;Projectile;LactoseCrossbow;LCCrossbowBoltAluminium;200;350;7.62;1;1
+Crossbow (Lactose);Crossbow bolt;Projectile;LactoseCrossbow;CrossbowBolt;200;350;7.62;1;1
+Historical Firearms Core;9 x 18 mm Makarov;Bullet;Base;Bullets9x18mm;300;450;9.27;1;1
+Historical Firearms Core;.303 British;Bullet;Base;Bullets303   ;3000;3600;7.92;1;1
+Historical Firearms Core;.30 Carbine;Bullet;Base;Bullets30Cal ;1200;1700;7.62;1;1
+Historical Firearms Axis;7.92 x 33mm Kurz;Bullet;Base;8mmKurtz;1700;2000;8.22;1;1
+Historical Firearms Axis;7.92 x 57 Mauser Round;Bullet;Base;8mmMauser;3800;4000;8.22;1;1
+Historical Firearms Axis;6.5 x 52mm Carcano;Bullet;Base;6x5Bullets;2200;2600;6.80;1;1
+Historical Firearms Axis;9 x 25 mm Mauser;Bullet;Base;9x25_Mauser_Bullets;480;550;9.01;1;1
+Historical Firearms Axis;6.5 x 50mmSR Arisaka;Bullet;Base;65x50_Bullets;2400;2800;6.63;1;1
+Historical Firearms Arms of The 3rd Republic;8 mm Lebel;Bullet;Base;8mmLEBEL_Bullets;2800;3600;8.3;1;1
+Historical Firearms Arms of The 3rd Republic;7,65 x 17 mm Browning;Bullet;Base;Bullets32;170;300;7.85;1;1
+Historical Firearms Arms of The 3rd Republic;7,5 x 54 mm 1929C;Bullet;Base;75x54_French_Bullets;2600;3200;7.84;1;1
+Historical Firearms Arms of The 3rd Republic;8 x 27 mm;Bullet;Base;Bullets8mmFO;170;300;8.38;1;1
+Historical Firearms Eastern Bloc;7.62x54 Rimmed;Bullet;Base;762x54Bullets;2600;2800;7.92;1;1
+Z Life Stalker PSA Weapons Pack;7,62 x 25 Tokarev;Bullet;Base;Bullets762Tokarev;500;700;7.70;1;1
+Z Life Stalker PSA Weapons Pack;7,62 x 38 mm Nagant;Bullet;Base;Bullets762Nagant;200;400;7.80;1;1
+Z Life Stalker PSA Weapons Pack;23 mm shotgun shell (4 gauge);Shotgun;Base;23x75ShotgunShells;5000;5500;23;1;1
+Z Life Stalker PSA Weapons Pack;9 x 39mm;Bullet;Base;Bullets939;700;1000;9.25;1;1
+Totally's Scavenged Firearms;.357 MAGNUM (scrap);Bullet;Base;BulletsDirtyMagnum;480;790;9.06;1;1
+Totally's Scavenged Firearms;5.56 (scrap);Bullet;Base;BulletsDirty556   ;1070;1290;5.56;1;1
+Totally's Scavenged Firearms;.308 (scrap);Bullet;Base;BulletsDirty308  ;1750;2660;7.82;1;1
+Post-Soviet Armory;5.45x39mm;Bullet;Base;Bullets545   ;1390;1890;5.6;1;1
+Post-Soviet Armory;7.62x39mm;Bullet;Base;Bullets762AK ;2300;2500;7.92;1;1
+Post-Soviet Armory;.22 LR;Bullet;Base;Bullets22LR  ;140;280;5.56;1;1
+Post-Soviet Armory;7.62x54 Rimmed;Bullet;Base;Bullets762PKM;2600;2800;7.92;1;1

@@ -1,0 +1,63 @@
+mod;name;AmmoType;module;item;Emin;Emax;Diameter;increaseHitTime;canKill
+Vanilla;.38 special;Bullet;Base;Bullets38;300;450;9.06;1;1
+Vanilla;.223;Bullet;Base;223Bullets;1670;1890;5.69;1;1
+Vanilla;.308;Bullet;Base;308Bullets;2500;3800;7.82;1;1
+Vanilla;.44;Bullet;Base;Bullets44;1000;1800;10.9;1;1
+Vanilla;.45;Bullet;Base;Bullets45;483;676;11.43;1;1
+Vanilla;5.56;Bullet;Base;556Bullets;1670;1890;5.56;1;1
+Vanilla;9mm;Bullet;Base;Bullets9mm;480;550;9.01;1;1
+Vanilla;12 gauge;Shotgun;Base;ShotgunShells;2500;3300;18.53;1;1
+VFE;7.62;Bullet;Base;762Bullets;2300;2500;7.92;1;1
+VFE;.22 LR;Bullet;Base;22Bullets;140;280;5.56;1;1
+VFE;Linked .308 Round;Bullet;Base;308BulletsLinked;2500;3800;7.82;1;1
+Brita;.45 LONG COLT;Bullet;Base;Bullets45LC;663;844;11.43;1;1
+Brita;.357 MAGNUM;Bullet;Base;Bullets357;780;1090;9.06;1;1
+Brita;.380 ACP;Bullet;Base;Bullets380;275;360;9.01;1;1
+Brita;5.7x28mm;Bullet;Base;Bullets57;500;600;5.7;1;1
+Brita;.22 LR;Bullet;Base;Bullets22;140;280;5.56;1;1
+Brita;.45-70 GOVERNMENT;Bullet;Base;Bullets4570;2300;2500;11.63;1;1
+Brita;.50 (12.7mm) Round;Bullet;Base;Bullets50MAG;19000;19000;12.98;1;1
+Brita;5.45x39mm;Bullet;Base;545x39Bullets;1390;1890;5.6;1;1
+Brita;7.62x39mm;Bullet;Base;762x39Bullets;2300;2500;7.92;1;1
+Brita;7.62x51 NATO;Bullet;Base;762x51Bullets;2000;3850;7.84;1;1
+Brita;7.62x54 Rimmed;Bullet;Base;762x54rBullets;2600;2800;7.92;1;1
+Brita;30-06 SPRINGFIELD;Bullet;Base;3006Bullets;2500;2800;7.62;1;1
+Brita;.50 BMG;Bullet;Base;50BMGBullets;19000;19000;12.98;1;1
+Brita;40mm GRENADE;Bullet;Base;40HERound;20000;20000;40;1;1
+Brita;40mm GRENADE incendiary;Bullet;Base;40INCRound;15000;16000;40;1;1
+Brita;HERocket;Bullet;Base;HERocket;30000;30000;40;1;1
+Brita;410g SHOTGUN SHELLS;Shotgun;Base;410gShotgunShells;1000;1780;10.4;1;1
+Brita;20g SHOTGUN SHELLS;Shotgun;Base;20gShotgunShells;1700;2400;15.63;1;1
+Brita;10g SHOTGUN SHELLS;Shotgun;Base;10gShotgunShells;3000;3960;19.69;1;1
+Brita;4G SHOTGUN SHELL;Shotgun;Base;4gShotgunShells;5000;5500;26.72;1;1
+Brita;Paintball;Other;Base;PB68;0;0;0;0;0
+Brita;BB gun;Other;Base;BB177;0;0;0;0;0
+Brita;CO2_Cartridge;Other;Base;CO2_Cartridge;0;0;0;0;0
+Brita;FlameFuel;Other;Base;FlameFuel;0;0;0;0;0
+Brita;Smoke;Other;Base;Smoke;0;0;0;0;0
+Brita;WaterAmmo;Other;Base;WaterAmmo;0;0;0;0;0
+Brita;Flare;Other;Base;Flare;0;0;0;0;0
+Brita;SlingShotAmmo_Rock;Other;Base;SlingShotAmmo_Rock;0;5;20;0;1
+Brita;SlingShotAmmo_Marble;Other;Base;SlingShotAmmo_Marble;0;5;20;0;1
+Firearms B41;.44-40 WCF Round;Bullet;Base;Bullets4440;1016;1016;10.9;1;1
+Firearms B41;30.06;Bullet;Base;Bullets3006;2500;2800;7.62;1;1
+Guns93;12 Gauge slug;Shotgun;Base;Slugs;3000;4000;18.53;1;1
+Guns93;7.62x39mm;Bullet;Base;76239Bullets;2300;2500;7.92;1;1
+Guns93;7.92x57 Mauser Round;Bullet;Base;792Bullets;3800;4000;8.22;1;1
+Guns93;10mm Auto;Bullet;Base;10mmBullets;680;960;10.17;1;1
+Guns93;.40 S&W Rounds;Bullet;Base;40Bullets;600;800;10.2;1;1
+Guns93;.25 Auto Round;Bullet;Base;25Bullets;90;200;6.38;1;1
+Guns93;.380 ACP;Bullet;Base;380Bullets;275;360;9.01;1;1
+Guns93;.357 MAGNUM;Bullet;Base;357Bullets;780;1090;9.06;1;1
+Guns93;.45 LONG COLT;Bullet;Base;45LCBullets;663;844;11.43;1;1
+Guns93;.30 Carbine Round;Bullet;Base;30CarBullets;1000;1400;7.82;1;1
+Guns93;.30-30 Round;Bullet;Base;3030Bullets;2450;2800;7.62;1;1
+Guns93;5.56 Belted;Bullet;Base;556Belt;1670;1890;5.56;1;1
+Guns93;.308 Round Belted;Bullet;Base;308Belt;2500;3800;7.82;1;1
+Pallontras Weapons;Wood bolt;Other;Base;WoodBolt;150;350;7,62;1;1
+Pallontras Weapons;Short wood bolt;Other;Base;ShortWoodBolt;100;300;7,62;1;1
+Pallontras Weapons;Short iron bolt;Other;Base;ShortIronBolt;150;350;7,62;1;1
+Pallontras Weapons;Iron bolt;Other;Base;IronBolt;200;400;7,62;1;1
+Kitsune's Crossbow;Crossbow bolt;Other;KCMweapons;CrossbowBolt;150;350;7,62;1;1
+Kitsune's Crossbow;Crossbow bolt large;Other;KCMweapons;CrossbowBoltLarge;200;400;7,62;1;1
+Kitsune's Crossbow;Wooden bolt;Other;KCMweapons;WoodenBolt;150;350;7,62;1;1

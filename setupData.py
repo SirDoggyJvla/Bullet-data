@@ -27,10 +27,10 @@ def ask_for_repository(title,extension=None):
 
 class SetupData():
     def __init__(self):
-        path = r'C:\Users\simon\Documents\Perso\Jeux\Zomboid\Mods\Bullet data\bulletData.csv'
+        path = r'C:\Users\simon\Documents\Perso\Jeux\Zomboid\Mods\Bullet-data\bulletData.csv'
         
         # Load the CSV file into a DataFrame
-        df = pd.read_csv(r'C:\Users\simon\Documents\Perso\Jeux\Zomboid\Mods\Bullet data\bulletData.csv',sep=';')
+        df = pd.read_csv(path,sep=';')
         self.df = df
         self.AmmoType = df['AmmoType'].values
         self.module = df['module'].values
@@ -50,8 +50,8 @@ class SetupData():
         else:
             print("Wrong entry")
         
-    def Setup_IHR(self):
-        str_format = '\t{0}]\t=\t{{ AmmoType = {1},\tEmin = {2},\tEmax = {3},\tDiameter = {4},\tCanKill = {5}, }},'
+    def Setup_HuntingMod(self):
+        str_format = '\t{0}]\t=\t{{ AmmoType = {1},\tEmin = {2},\tEmax = {3},\tCanKill = {4}, }},'
 
         output = ""
 
@@ -62,7 +62,8 @@ class SetupData():
 
         module = df['module'].values
         items = df['item'].values
-        item = ['["{0}.{1}"'.format(module[i],items[i]) for i in range(len(df))]
+
+        item = ['["{0}.{1}"'.format(module[i].replace(" ",""),items[i].replace(" ","")) for i in range(len(df))]
 
         Emin = df['Emin'].values
         Emax = df['Emax'].values
@@ -94,8 +95,68 @@ class SetupData():
                 AmmoType[i].ljust(max_ammo_type_length),
                 str(Emin[i]).rjust(max_eminn_length),
                 str(Emax[i]).rjust(max_emax_length),
-                str(Diameter[i]).rjust(max_diameter_length),
+                # str(Diameter[i]).rjust(max_diameter_length),
                 canKill_i.rjust(max_diameter_canKill)
+            )
+            output += "\n"
+            
+        print(output)
+        
+        # Copy the string to the clipboard
+        pyperclip.copy(output)
+        
+    def Setup_TLOU(self):
+        str_format = '\t{0}]\t=\t{{ AmmoType = {1},\tEmin = {2},\tEmax = {3},\tDiameter = {4},\tCanKill = {5},\tincreaseHitTime = {6}, }},'
+
+        output = ""
+
+        df = self.df
+        mod = df['mod'].values
+        AmmoTypes = df['AmmoType'].values
+        AmmoType = ['"{0}"'.format(AmmoTypes[i]) for i in range(len(df))]
+
+        module = df['module'].values
+        items = df['item'].values
+        item = ['["{0}.{1}"'.format(module[i].replace(" ",""),items[i].replace(" ","")) for i in range(len(df))]
+
+        Emin = df['Emin'].values
+        Emax = df['Emax'].values
+        Diameter = df['Diameter'].values
+        canKill = df['canKill'].values
+        increaseHitTime = df['increaseHitTime'].values
+
+        # Define the max lengths for each field to align them properly
+        max_item_length = max(len(str(i)) for i in item)
+        max_ammo_type_length = max(len(str(a)) for a in AmmoType)
+        max_eminn_length = max(len(str(e)) for e in Emin)
+        max_emax_length = max(len(str(e)) for e in Emax)
+        max_diameter_length = max(len(str(d)) for d in Diameter)
+        max_diameter_canKill = max(len(str(d)) for d in canKill)
+        max_diameter_increaseHitTime = max(len(str(d)) for d in increaseHitTime)
+
+        previousMod = ""
+        for i in range(self.size):
+            mod_i = mod[i]
+            if mod_i != previousMod:
+                previousMod = mod_i
+                output += "\n"
+                output += "--- {0}".format(mod_i)
+                output += "\n"
+                
+            canKill_i = canKill[i]
+            canKill_i = canKill_i == 1 and "true" or "false"
+            
+            increaseHitTime_i = increaseHitTime[i]
+            increaseHitTime_i = increaseHitTime_i == 1 and "true" or "false"
+            
+            output += str_format.format(
+                item[i].ljust(max_item_length),
+                AmmoType[i].ljust(max_ammo_type_length),
+                str(Emin[i]).rjust(max_eminn_length),
+                str(Emax[i]).rjust(max_emax_length),
+                str(Diameter[i]).rjust(max_diameter_length),
+                canKill_i.rjust(max_diameter_canKill),
+                increaseHitTime_i.rjust(max_diameter_increaseHitTime)
             )
             output += "\n"
             
